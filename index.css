@@ -1,0 +1,206 @@
+body {
+  background-color: #f2edf1;
+  text-align: center;
+  font-family: "Source Serif Pro";
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+h1 {
+  margin-top: 45px;
+  font-family: "Bebas neue";
+  font-size: 124px;
+  margin-bottom: 20px;
+  color: #121f48;
+}
+
+#last-name {
+  color: #7a303f;
+}
+
+hr {
+  border: 2px solid #692f3a;
+  width: 250px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #121f3c;
+  font-weight: 400;
+  margin-bottom: -6px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  float: left;
+  text-transform: uppercase;
+  font-family: "Bebas neue";
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #121f48;
+}
+
+.nav-menu {
+  display: flex;
+  font-size: 24px;
+  color: #121f48;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tagline {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+/* Mobile view */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7a303f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 13px 8px 40px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Bebas Neue";
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 501px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .tagline {
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 876px) {
+  .tagline {
+    width: 60%;
+  }
+}
+
+@media (max-width: 761px) {
+  li {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 501px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+i {
+  border: solid #7a303f;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.goku,
+.potros,
+.ksu,
+.mhs {
+  height: 700px;
+  width: 700px;
+}
+
+.img-text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.gradient {
+    background: linear-gradient( rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45));
+    z-index: 10;
+  }
+
+
