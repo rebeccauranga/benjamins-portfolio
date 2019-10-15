@@ -5,11 +5,25 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    overflow-x: hidden;
   }
   
   ul {
     list-style: none;
     margin-bottom: 20px;
+  }
+
+  .description-text {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-right: 50px;
+  }
+
+  hr {
+    border: 1px solid #692f3a;
+    margin-top: 50px;
+    margin-left: 0;
+    width: 95%;
   }
   
   li {
@@ -66,19 +80,48 @@ body {
  }
 
   .potros-images {
+    width: 100%;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
   }
 
   #first-logo {
-      height: 400px;
-      width: 400px;
+      height: 500px;
+      max-width: 61%;
+      margin-left: -100px;
   }
 
   #first-uniform {
-      height: 400px;
-      width: 600px;
+      height: 500px;
+      /* max-width: 60%; */
+      margin-top: 20px;
+  }
+
+  #second-logo {
+      height: 510px;
+      width: 510px;
+  }
+
+  #second-uniform {
+      height: 510px;
+      width: 510px;
+      transform: rotate(90deg);
+  }
+
+  #tryout-flyer {
+      height: 510px;
+      width: 510px;
+  }
+
+  #sponsorship-graphic {
+      height: 510px;
+      width: 510px;
+  }
+
+  #uniform-designs {
+      height: 700px;
+      max-width: 100%
   }
   
   @media (max-width: 800px) {
@@ -181,4 +224,149 @@ body {
     }
   
   }
+
+  .social-img {
+    height: 20px;
+    width: 20px;
+    padding-top: 20px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+  .printed-uniforms {
+    display: flex;
+    flex-wrap: wrap;
+  }
   
+  #white-printed-uniforms {
+    height: 350px;
+    margin-right: 40px;
+  }
+
+  @media (max-width: 1200px) {
+    #black-printed-uniforms {
+      margin-top: 30px;
+    }
+    .printed-uniforms {
+      justify-content: center;
+    }
+  }
+
+  #black-printed-uniforms {
+    height: 350px;
+  }
+
+  @media (max-width: 800px) {
+    #uniform-designs {
+      height: 335px;
+    }
+    #tryout-flyer {
+      height: 400px;
+      width: 400px;
+      justify-content: center;
+      margin-left: -40px;
+    }
+    #sponsorship-graphic {
+      margin-left: -40px;
+      height: 400px;
+      width: 400px;
+      margin-top: 40px;
+      justify-content: center;
+    }
+
+    #first-logo {
+      height: 300px;
+    }
+  }
+
+  #mhs-spread {
+    height: 400px;
+    width: 600px;
+  }
+
+  #mhssoccerlogo, #mhshillgrove, #mhsetowah {
+    height: 350px;
+    width: 350px;
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #mhssoccerbg {
+    height: 350px;
+    margin-bottom: 10px;
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  .mhs-graphics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 600px) {
+    #mhs-spread {
+      height: 275px;
+      width: 425px;
+      margin-right: 40px;
+      margin-bottom: 20px;
+    }
+  }
+
+  #david-w1 {
+    width: 600px;
+    height: 200px;
+  }
+
+  #david-w2 {
+    width: 600px;
+    height: 200px;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 1200px) {
+    #david-w2 {
+      margin-left: 0px;
+    }
+  }
+
+
+  #forex {
+    width: 200px;
+    height: 300px;
+    margin-left: -20px;
+   
+  }
+
+  #hayley {
+    width: 300px;
+    height: 300px;
+   
+  }
+
+  #polyowl {
+    width: 300px;
+    height: 300px;
+   
+  }
+
+  #polygoku {
+    width: 175px;
+    height: 300px;
+   
+  }
+
+  #polypotro {
+    width: 300px;
+    height: 300px;
+   
+  }
+
+  .misc-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

@@ -28,7 +28,7 @@ function renameFile(filePath) {
 renameFile("images/KSU/bobbleheadcomp v2.jpg");
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("mySidenav").style.width = "75%";
   }
   
   function closeNav() {

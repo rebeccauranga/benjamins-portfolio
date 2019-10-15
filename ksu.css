@@ -1,0 +1,130 @@
+#poster-design {
+    height: 600px;
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    #poster-design {
+        height: 469px;
+    }
+}
+@media (max-width: 767px) {
+    #poster-design {
+        height: 375px;
+    }
+}
+
+#iphone-pics {
+    width: 560px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.colorful-flyers {
+    height: 375px;
+    height: 375px;
+    margin: 10px;
+}
+
+.back-to-school {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iphone-bts {
+    margin: 10px;
+}
+
+.colorful-flyers-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.happy-hour {
+    height: 300px;
+    width:500px;
+    margin: 10px;
+}
+
+#cfa-square {
+    height: 300px;
+    width:300px;
+    margin: 10px;
+}
+
+#napkins {
+    height: 300px;
+    margin: 10px;
+}
+
+#trifold {
+    height: 400px;
+    width: 575px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#bs-poster {
+    height: 475px;
+    width: 325px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+}
+
+#owltec {
+    width: 400px;
+    height: 218px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#shirts {
+    height: 400px;
+    width: 800px;
+}
+
+#july {
+    height: 385px;
+    width: 385px;
+}
+
+.owltec-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.bs-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.milk {
+    height: 400px;
+    width: 600px;
+}
+
+.bs-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.onthefly {
+    width: 400px;
+    height: 400px;
+}

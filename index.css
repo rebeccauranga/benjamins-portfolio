@@ -4,6 +4,7 @@ body {
   font-family: "Source Serif Pro";
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -26,8 +27,13 @@ h1 {
 }
 
 hr {
-  border: 2px solid #692f3a;
+  border: 1px solid #692f3a;
   width: 250px;
+}
+
+footer hr {
+  margin-top: 50px;
+  width: 100%;
 }
 
 h3 {
@@ -151,7 +157,7 @@ a:visited {
   }
 
   h1 {
-    font-size: 100px;
+    font-size:75px;
   }
   h3 {
     font-size: 24px;
@@ -198,9 +204,58 @@ i {
   color: white;
 }
 
-.gradient {
-    background: linear-gradient( rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45));
-    z-index: 10;
+  .sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
+
+  .image-container:after {
+    position: absolute;
+    content: "";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: -webkit-linear-gradient(left, rgba(185, 43, 39, 0.72) 0%, rgba(100, 73, 118, 0.72) 51%, rgba(21, 101, 192, 0.72) 100%);
+    background: -o-linear-gradient(left, rgba(185, 43, 39, 0.72) 0%, rgba(100, 73, 118, 0.72) 51%, rgba(21, 101, 192, 0.72) 100%);
+    background: -ms-linear-gradient(left, rgba(185, 43, 39, 0.72) 0%, rgba(100, 73, 118, 0.72) 51%, rgba(21, 101, 192, 0.72) 100%);
+    background: -moz-linear-gradient(left, rgba(185, 43, 39, 0.72) 0%, rgba(100, 73, 118, 0.72) 51%, rgba(21, 101, 192, 0.72) 100%);
+    background: linear-gradient(to right, rgba(185, 43, 39, 0.72) 0%, rgba(100, 73, 118, 0.72) 51%, rgba(21, 101, 192, 0.72) 100%);
+  }
+
+  .social-img {
+    height: 20px;
+    width: 20px;
+    padding-top: 20px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+
+  @media (min-width: 2032px) {
+    .goku,
+.potros,
+.ksu,
+.mhs {
+  height: 500px;
+  width: 500px;
+}
+
+ .sections h1 {
+  font-size: 60px;
+}
+  }
+
+footer {
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  footer {
+    text-align: center;
+  }
+}
 
